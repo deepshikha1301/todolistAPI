@@ -17,7 +17,7 @@ import com.api.todolist.service.TaskService;
 
 @RestController
 @RequestMapping("/v1")
-public class CrudController {
+public class TaskController {
 	
 	@Autowired
 	TaskService taskService;
